@@ -1,0 +1,22 @@
+.grid { /* . tells css to find class grid */
+  /* styling the grid */
+  width: 200px;
+  height: 400px;
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  /* divs stack top to bottom by default.
+  flex wrap allows divs to be organized
+  left to right and be contained in grid */
+}
+
+.grid div {
+  /* Can style the divs within the grid element
+  /* by using statement div after .grid */
+  height:20px;
+  width: 20px;
+}
+
+.tetromino {
+  background-color: blue;
+}
